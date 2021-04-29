@@ -1,8 +1,8 @@
 import React from 'react';
-
+import c from './Content.module.css'
 const Content = () => {
     return (
-        <div className='content'>
+        <div className={c.content}>
             <div>
                 <img src='https://makyan19.files.wordpress.com/2014/11/pacificocean_pag1.jpg' />
             </div>
@@ -14,7 +14,7 @@ const Content = () => {
             <div>
                 <input type='text' />
             </div>
-            <div>
+            <div className={c.item}>
                 post 1
             </div>
             <div>

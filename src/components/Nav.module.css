@@ -1,0 +1,11 @@
+.nav {
+  background-color: rgb(212, 146, 22);
+  margin: 10px 10px 0 0;
+  padding: 50px;
+  height: 500px;
+  color: white;
+  font-size: 20px;
+}
+.item {
+  color: white;
+}
