@@ -9,3 +9,11 @@
 .item {
   color: white;
 }
+.item a.activeLink {
+  color: gold;
+  font-style: italic;
+}
+.item a {
+  text-decoration: none;
+  color: white;
+}
